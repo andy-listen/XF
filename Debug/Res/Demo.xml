@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1080,700" sizebox="10,10,12,12" caption="0,0,0,50" roundcorner="5,5" hasshadow="true" >
+	<VerticalLayout bkcolor="0xFFFFFFFF">
+		<HorizontalLayout name="HLayout_Title_bar" height="33" bottombordersize="2" bordercolor="0xFFAABBCC">
+			<Control />
+			<Button name="minbtn" normalimage="btn_min_normal.png" hotimage="btn_min_hover.png"  padding="20,5,0,0" width="20" height="20"/>
+			<Button name="maxbtn" normalimage="btn_max_normal.png" hotimage="btn_max_hover.png" padding="0,5,0,0" width="20" height="20"/>
+			<Button name="restorebtn" normalimage="btn_restore_normal.png" hotimage="btn_restore_hover.png" padding="0,5,0,0" width="20" height="20"  visible="false" />
+			<Button name="closebtn" normalimage="btn_close_normal.png" hotimage="btn_close_hover.png" padding="0,5,0,0" width="20" height="20"/>    
+			<Control width="20"/>
+		</HorizontalLayout>
+		<TabLayout name="Tab_Browser">
+			<CEFBrowser name="BrowserSearch" bkcolor="0xFF112233" URL="http://www.baidu.com" />
+		</TabLayout>
+	</VerticalLayout>
+</Window>  

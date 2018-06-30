@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CEF">
+      <UniqueIdentifier>{df889876-d7b5-413a-a197-25039473af51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{b5f3d1ba-27b4-4bdc-ba8a-26c77fb96006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="CEFBrowserUI.h">
+      <Filter>CEF</Filter>
+    </ClInclude>
+    <ClInclude Include="CefClientApp.h">
+      <Filter>CEF</Filter>
+    </ClInclude>
+    <ClInclude Include="CefClientHandler.h">
+      <Filter>CEF</Filter>
+    </ClInclude>
+    <ClInclude Include="CEFTempWnd.h">
+      <Filter>CEF</Filter>
+    </ClInclude>
+    <ClInclude Include="CEFUtils.h">
+      <Filter>CEF</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDef.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowShadow.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CEFBrowserUI.cpp">
+      <Filter>CEF</Filter>
+    </ClCompile>
+    <ClCompile Include="CefClientApp.cpp">
+      <Filter>CEF</Filter>
+    </ClCompile>
+    <ClCompile Include="CefClientHandler.cpp">
+      <Filter>CEF</Filter>
+    </ClCompile>
+    <ClCompile Include="CEFTempWnd.cpp">
+      <Filter>CEF</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowShadow.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CEFUtils.cpp">
+      <Filter>CEF</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FootSuit.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="FootSuit.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Debug\libcef.lib" />
+    <Library Include="..\Debug\libcef_dll_wrapper.lib" />
+  </ItemGroup>
+</Project>
